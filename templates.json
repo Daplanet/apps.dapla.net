@@ -636,6 +636,19 @@
   },
   {
     "type": "stack",
+    "title": "Flyve MDM",
+    "description": "Open source Mobile Device Management softwre.",
+    "note": "",
+    "categories": ["mdm", "orchestration"],
+    "platform": "linux",
+    "logo": "https://avatars.githubusercontent.com/u/22343781?s=200&v=4",
+    "repository": {
+      "url": "https://github.com/flyve-mdm/docker-environment",
+      "stackfile": "docker-compose.yml"
+    }
+  },
+  {
+    "type": "stack",
     "title": "OpenFaaS",
     "description": "Serverless functions made simple",
     "note": "Deploys the API gateway and sample functions. You can access the UI on port 8080.",
